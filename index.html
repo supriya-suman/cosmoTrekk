@@ -1,0 +1,17 @@
+<!doctype html> <!-- tells the browser this is a modern HTML5 page -->
+<html lang="en"> <!-- page language is English (helps screen readers) -->
+  <head> <!-- invisible page settings -->
+    <meta charset="UTF-8" /> <!-- support all characters, e.g. "·" and "→" -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /> <!-- make it fit phone screens -->
+    <meta name="theme-color" content="#0b1430" /> <!-- colour of the mobile browser bar -->
+    <meta name="description" content="CosmoTrekk — Your Journey Has No Horizon. Junior Astronaut Mission Trainer." /> <!-- search-engine summary -->
+    <link rel="icon" href="/icons/favicon.svg" type="image/svg+xml" /> <!-- browser tab icon -->
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" /> <!-- iPhone home-screen icon -->
+    <title>CosmoTrekk — Your Journey Has No Horizon.</title> <!-- text in the browser tab -->
+  </head>
+  <body> <!-- visible page -->
+    <div id="root"></div> <!-- React draws the whole game inside this empty box -->
+    <noscript>CosmoTrekk needs JavaScript to run.</noscript> <!-- shown only if JavaScript is switched off -->
+    <script type="module" src="/src/main.tsx"></script> <!-- starts the app (src/main.tsx) -->
+  </body>
+</html>

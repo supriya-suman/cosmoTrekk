@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- CosmoTrekk icon: planet with ring and a rising star -->
+<defs><radialGradient id="g" cx="35%" cy="35%" r="75%"><stop offset="0" stop-color="#9ff3ff"/><stop offset="1" stop-color="#1c4fd1"/></radialGradient></defs>
+<rect width="512" height="512" rx="112" fill="#050a1a"/>
+<circle cx="256" cy="270" r="140" fill="url(#g)"/>
+<ellipse cx="256" cy="280" rx="225" ry="56" fill="none" stroke="#ffc857" stroke-width="22" transform="rotate(-14 256 280)"/>
+<path d="M256 52 l18 40 44 4 -34 28 10 43 -38 -23 -38 23 10 -43 -34 -28 44 -4z" fill="#ffc857"/>
+</svg>

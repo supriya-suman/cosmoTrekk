@@ -1,0 +1,15 @@
+# Installed packages — recreated with "npm install", never committed
+node_modules/
+# Production build output — recreated with "npm run build"
+dist/
+dev-dist/
+# Secret environment files — NEVER commit real keys
+.env
+.env.local
+.env.*.local
+# Vercel CLI local link folder
+.vercel/
+# Editor / OS clutter
+.DS_Store
+*.log
+coverage/
